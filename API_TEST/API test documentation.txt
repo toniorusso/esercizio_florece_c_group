@@ -1,0 +1,2 @@
+Il testing delle API è stato realizzato attraverso l'applicativo Postman. La documentazione relativa è disponibile all'indirizzo:
+https://documenter.getpostman.com/view/25554873/2s93CHuFD5
