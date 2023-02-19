@@ -49,12 +49,7 @@ public class UserController {
 		return usersDTO;
 	}
 	
-	/*
-	 * Nota: le API che permettono di effetturare operazioni diverse dal semplice get di dati sono state dotate di una sigla /admin/,
-	 * immaginando uno scenario in cui sia richiesto di gestire anche la sicurezza.
-	 */
 		 
-	
 	@PostMapping("/api/admin/user/save")
 	public User saveUser(@RequestBody User user) {
 		return service.saveUser(user);
