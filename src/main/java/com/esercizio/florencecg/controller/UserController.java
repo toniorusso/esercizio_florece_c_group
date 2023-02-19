@@ -39,7 +39,7 @@ public class UserController {
 	}
 	
 	@GetMapping("/api/admin/user/all")
-	public List<UserDTO> getAllUsersWithPassword(){
+	public List<UserDTO> getAllUsersWithoutPassword(){
 		List<User> users = service.getAllUsers();
 		List<UserDTO> usersDTO = new ArrayList<>();
 		for (User user : users) {
